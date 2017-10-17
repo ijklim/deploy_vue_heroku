@@ -1,13 +1,11 @@
 # Forbid directory viewing
 Options -Indexes
 
-<IfModule mod_rewrite.c>
   RewriteEngine on
 
   # Redirects http to https
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-</IfModule>
 
 # http://www.prestashop.com/forums/topic/74847-solved-how-to-enable-gzip-with-godaddy/
 <IfModule mod_deflate.c>
