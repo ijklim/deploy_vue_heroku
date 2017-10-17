@@ -2,7 +2,7 @@
 
 Lighthouse score:
 
-<p align="center">
+<p align="center" style="display:none;">
   <img src="https://github.com/ijklim/deploy_vue_heroku/blob/master/lighthouse-score.png" width="832px">
 </p>
 
