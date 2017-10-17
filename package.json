@@ -1,0 +1,10 @@
+{
+  "name": "pingshuai",
+  "version": "1.0.0",
+  "description": "Ping Shuai Timing App",
+  "author": "Ivan Lim",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+ }
