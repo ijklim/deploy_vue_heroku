@@ -1,9 +1,6 @@
 # Forbid directory viewing
 Options -Indexes
 
-# Default page to view when page is not found
-ErrorDocument 404 /index.html
-
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
