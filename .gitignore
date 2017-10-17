@@ -1,4 +1,5 @@
 .DS_Store
+node_modules/
 *.log*
 
 # Development files such as psd for images

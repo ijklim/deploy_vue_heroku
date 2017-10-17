@@ -5,6 +5,9 @@
   "author": "Ivan Lim",
   "private": true,
   "scripts": {
-    "postinstall": "npm install express, connect-history-api-fallback"
+    "postinstall": "npm install express"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.4.0"
   }
- }
+}
